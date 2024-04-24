@@ -2,10 +2,28 @@
 main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Muisc"
-    url: 
-  - tile: "Learning"
-    url: 
+  - title: "Music"
+    url:  /Music/
+  - tile: "CV"
+    url:  /cv/
+  - title: "Learning"
+    url: /learning/
+  - title: "Guide"
+    url: /guide/
+
+
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /docs/quick-start-guide/
+      - title: "Structure"
+        url: /docs/structure/
+      - title: "Installation"
+        url: /docs/installation/
+      - title: "Upgrading"
+        url: /docs/upgrading/
+
     
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

@@ -109,6 +109,16 @@ author:
   bio              : "Nothing but"
   location         : "Somewhere"
   email            : zzh953928832@gmail.com
+
+  # Academic websites
+  arxiv            : # URL - Update with the correct link to your profile
+  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  impactstory      : # URL
+  orcid            : "http://orcid.org/yourorcidurl"
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : # URL
+
+  # Personal links
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -277,6 +287,13 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  learning:
+    output: true
+    permalink: /:collection/:path/
+
+
 # Defaults
 defaults:
   # _posts
@@ -290,6 +307,15 @@ defaults:
       comments: # true
       share: true
       related: true
-
+  # learning
+  - scope: 
+      path: ""
+      type: learning
+    values:
+      layout: single  
+      author_profile: true
+      read_time: true
+      comments: true
+      share: # true
 
 
