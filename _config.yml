@@ -291,7 +291,11 @@ compress_html:
 collections:
   learning:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:path/ 
+  miscellaneous:
+    output: true
+    permalink: /:collection/:path/ 
+
 
 
 # Defaults
@@ -307,7 +311,7 @@ defaults:
       comments: # true
       share: true
       related: true
-  # learning
+  # _learning
   - scope: 
       path: ""
       type: learning
@@ -317,5 +321,14 @@ defaults:
       read_time: true
       comments: true
       share: # true
-
+  # _learning/_miscellaneous
+  - scope: 
+      path: ""
+      type: miscellaneous
+    values:
+      layout: single  
+      author_profile: true
+      read_time: true
+      comments: true
+      share: # true
 
