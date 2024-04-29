@@ -292,6 +292,9 @@ collections:
   learning:
     output: true
     permalink: /:collection/:path/ 
+  music:
+    output: true
+    permalink: /:collection/:path/ 
   miscellaneous:
     output: true
     permalink: /:collection/:path/ 
@@ -331,4 +334,14 @@ defaults:
       read_time: true
       comments: true
       share: # true
+  # _music
+  - scope: 
+      path: ""
+      type: music
+    values:
+      layout: single  
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
 

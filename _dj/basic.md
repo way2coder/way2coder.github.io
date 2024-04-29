@@ -8,7 +8,5 @@ excerpt: 'Tutorials about some basic skills of being an DJ.'
 date: 2024-4-24
 author_profile: true
 toc: true
-url: 'http://way2coder.github.io/assets/pdf/DJ-tutorial.pdf'
 ---
-
-
+![Basic DJ skills](/assets/pdf/DJ-tutorial.pdf)
