@@ -4,7 +4,7 @@ collection: learning
 categories:
     - miscellaneous
 permalink: /learning/miscellaneous/pdb/
-excerpt: 'Tutorials about basic git command.'
+excerpt: 'Tutorials about basic debug methods for python.'
 date: 2024-4-24
 author_profile: true
 toc: true
@@ -55,6 +55,13 @@ tbreak lineno
 tbreak filename:lineno
 tbreak functionname
 ```
+
+3. 设置条件断点
+```bash
+condition bpnumber condition_
+```
+当condition_为True的时候，断点bpnumber有效，否则断点无效
+
 3. 清除断点
 ```bash
 cl
@@ -76,3 +83,4 @@ ll 所有
 ```bash
 q 
 ```
+7. 

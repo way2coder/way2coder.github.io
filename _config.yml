@@ -298,6 +298,12 @@ collections:
   miscellaneous:
     output: true
     permalink: /:collection/:path/ 
+  dj:
+    output: true
+    permalink: /dj/:path/
+  moments:
+    output: true
+    permalink: /:collection/:path/
 
 
 
