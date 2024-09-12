@@ -298,6 +298,9 @@ collections:
   miscellaneous:
     output: true
     permalink: /:collection/:path/ 
+  acoustics:
+    output: true
+    permalink: /:collection/:path/ 
   dj:
     output: true
     permalink: /dj/:path/
@@ -344,6 +347,16 @@ defaults:
   - scope: 
       path: ""
       type: music
+    values:
+      layout: single  
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+    # _acoustics
+  - scope: 
+      path: ""
+      type: acoustics
     values:
       layout: single  
       author_profile: true

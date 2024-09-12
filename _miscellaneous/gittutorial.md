@@ -8,6 +8,7 @@ excerpt: 'Tutorials about basic git command.'
 date: 2024-4-24
 author_profile: true
 toc: true
+layout: single
 ---
 
 参考链接： 
@@ -70,6 +71,7 @@ Git 的工作就是创建和保存你的项目的快照及与之后的快照进�
 |git blame <file>	|以列表形式查看指定文件的历史修改记录|
 
 ### 远程操作
+
 |命令|说明|  
 |----|----|
 |git remote	|远程仓库操作|
@@ -78,10 +80,11 @@ Git 的工作就是创建和保存你的项目的快照及与之后的快照进�
 |git push	|上传远程代码并合并|
 
 ### 处理冲突
+
 |命令|说明|  
 |----|----|
 |git fetch origin; git reset --hard origin/main|将本地分支重置到远程分支的状态| 
-|||
+|git checkout branch|服务器端也需要有一个同名的branch，需要使用git checkout branch|
 -------
 ## Git 分支管理
 几乎每一种版本控制系统都以某种形式支持分支，一个分支代表一条独立的开发线。   

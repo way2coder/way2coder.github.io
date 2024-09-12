@@ -8,6 +8,7 @@ excerpt: 'Tutorials about basic debug methods for python.'
 date: 2024-4-24
 author_profile: true
 toc: true
+layout: compress
 ---
 ## Python调试方法：
 1. 使用打印语句`print()`

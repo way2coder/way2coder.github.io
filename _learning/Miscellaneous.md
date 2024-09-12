@@ -4,7 +4,7 @@ title: "Miscellaneous"
 collection: learning
 permalink: /learning/miscellaneous/
 author_profile: true
-excerpt: 'Tutorials about basic git command.'
+excerpt: 'Some trivial tricks in diffirenct fields.'
 date: 2024-4-24
 ---
 

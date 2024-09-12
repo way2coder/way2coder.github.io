@@ -8,6 +8,8 @@ excerpt: 'Things that make coding more efficient, robust, readale.'
 date: 2024-5-24
 author_profile: False 
 toc: true
+classes: wide
+layout: single
 ---
 # Design Pattern
 https://refactoringguru.cn/design-patterns/python
@@ -58,7 +60,6 @@ def animal_sound(animal):
 
 animal_sound(Dog("Buddy"))
 animal_sound(Cat("Whiskers"))
-
 
 ```
 

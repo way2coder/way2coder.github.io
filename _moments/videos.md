@@ -5,7 +5,7 @@ layout: archive
 excerpt: "Beautiful Moments"
 ---
 
-
+<!-- 
 ## Michael
 <div class="video-container" style="
     position: relative;
@@ -24,7 +24,7 @@ excerpt: "Beautiful Moments"
     <source src="/assets/videos/lilmicheal.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-</div>
+</div> -->
 
 ## Life from 2024/02/01 to 2024/05/25
 
