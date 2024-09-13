@@ -5,4 +5,4 @@ permalink: /teaching/
 author_profile: true
 ---
 ## C++ Data Structure and Algorithm for high school
-(Gitee Hub)[https://gitee.com/makeitagain/cpp-teaching/tree/main/]
+[https://gitee.com/makeitagain/cpp-teaching/tree/main/](Gitee Hub)

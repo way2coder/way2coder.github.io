@@ -105,8 +105,8 @@ analytics:
 # Site Author
 author:
   name             : "Silhouette"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Nothing but"
+  avatar           : "/assets/images/oil.jpg"
+  bio              : "Hi guys"
   location         : "Shenzhen"
   email            : zzh953928832@gmail.com
 
@@ -124,7 +124,7 @@ author:
       icon: "fas fa-fw fa-envelope-square"
       # url: "zzh953928832@gmail.com"
     - label: "SoundCloud"
-      icon: "fas fa-fw fa-soundcloud-square"
+      icon: "fas fa-fw fa-music"
       url: "https://soundcloud.com/silhouette-zzh"
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -310,10 +310,6 @@ collections:
   moments:
     output: true
     permalink: /:collection/:path/
-  cv:
-    output: true
-    permalink: /:collection/:path/
-
 
 
 
@@ -370,10 +366,10 @@ defaults:
       read_time: true
       comments: true
       share: true
-  # _cv
+  # _pages
   - scope: 
       path: ""
-      type: cv
+      type: pages
     values:
       layout: single  
       author_profile: true
