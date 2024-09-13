@@ -2,8 +2,6 @@
 main:
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - tile: "CV"
-    url:  /cv/
   - title: "Learning"
     url: /learning/
   - title: "Teaching"
@@ -12,6 +10,8 @@ main:
     url:  /Music/
   - title: "Guide"
     url: /guide/
+  - tile: "CV"
+    url:  /cv/
 
 
 
