@@ -178,6 +178,7 @@
   align-items: center;
   min-height: $nav-height;
   background: $background-color;
+  margin-right: -5em;
 
   a {
     display: block;
@@ -197,7 +198,7 @@
     }
 
     &.site-title {
-      margin-left: 0;
+      margin-left: -4em;
     }
   }
 
@@ -326,6 +327,7 @@
 
 .no-js {
   .greedy-nav {
+    
     .visible-links {
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;

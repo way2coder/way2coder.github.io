@@ -1,8 +1,7 @@
 ---
 layout: single
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 ---
 
-first 

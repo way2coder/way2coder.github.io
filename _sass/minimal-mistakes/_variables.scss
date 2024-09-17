@@ -6,7 +6,7 @@
    Typography
    ========================================================================== */
 
-$doc-font-size: 16 !default;
+$doc-font-size: 12 !default; // 16 original
 
 /* paragraph indention */
 $paragraph-indent: false !default; // true, false (default)
@@ -34,6 +34,14 @@ $header-font-family: $sans-serif !default;
 $caption-font-family: $serif !default;
 
 /* type scale */
+// $type-size-1: 2.441em !default; // ~39.056px
+// $type-size-2: 1.953em !default; // ~31.248px
+// $type-size-3: 1.563em !default; // ~25.008px
+// $type-size-4: 1.25em !default; // ~20px
+// $type-size-5: 1em !default; // ~16px
+// $type-size-6: 0.75em !default; // ~12px
+// $type-size-7: 0.6875em !default; // ~11px
+// $type-size-8: 0.625em !default; // ~10px
 $type-size-1: 2.441em !default; // ~39.056px
 $type-size-2: 1.953em !default; // ~31.248px
 $type-size-3: 1.563em !default; // ~25.008px
@@ -44,8 +52,8 @@ $type-size-7: 0.6875em !default; // ~11px
 $type-size-8: 0.625em !default; // ~10px
 
 /* headline scale */
-$h-size-1: 1.563em !default; // ~25.008px
-$h-size-2: 1.25em !default; // ~20px
+$h-size-1: 1.5em !default; // ~25.008px
+$h-size-2: 1.2em !default; // ~20px
 $h-size-3: 1.125em !default; // ~18px
 $h-size-4: 1.0625em !default; // ~17px
 $h-size-5: 1.03125em !default; // ~16.5px
@@ -145,7 +153,7 @@ $base0f: #ff5370 !default;
    ========================================================================== */
 
 $small: 600px !default;
-$medium: 768px !default;
+$medium: 720px !default;
 $medium-wide: 900px !default;
 $large: 1024px !default;
 $x-large: 1280px !default;
@@ -156,8 +164,8 @@ $max-width: $x-large !default;
    ========================================================================== */
 
 $right-sidebar-width-narrow: 200px !default;
-$right-sidebar-width: 300px !default;
-$right-sidebar-width-wide: 400px !default;
+$right-sidebar-width: 160px !default;
+$right-sidebar-width-wide: 200px !default;
 
 /*
    Other

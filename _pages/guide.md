@@ -1,5 +1,5 @@
 ---
-layout: single
+classes: wide
 permalink: /guide/
 title: "Guide"
 author_profile: true
@@ -7,6 +7,10 @@ redirect_from:
 #   - /md/
 #   - /markdown.html
 ---
+## Configuration 
+1. font size: /_sass/_variables.scss
+2. width of sidebar: /_sass/minimal-mistakes/_page.scss :  margin-right: 6em;
+3. width of nevagation: /_sass/minimal-mistakes/_navigation.scss margin-left: -4
 
 ## Locations of key files/directories
 

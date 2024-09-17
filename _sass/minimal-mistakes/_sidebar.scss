@@ -23,6 +23,7 @@
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
 
+
     &:hover {
       opacity: 1;
     }
@@ -37,7 +38,7 @@
   }
 
   @include breakpoint($x-large) {
-    width: calc(#{$right-sidebar-width} - 1em);
+    width: calc(#{$right-sidebar-width} );
   }
 
   > * {
@@ -131,6 +132,8 @@
     display: block;
     width: auto;
     height: auto;
+    padding-left: 0; /* 移除左侧内边距 */
+    margin-left: 0; /* 移除左侧外边距 */
   }
 
   img {
@@ -339,7 +342,7 @@
     margin-right: initial;
     padding-left: initial;
     z-index: initial;
-
+    
     &.sticky {
       float: none;
     }

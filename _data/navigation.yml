@@ -1,17 +1,17 @@
 # main links
-main:
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Learning"
-    url: /learning/
-  - title: "Teaching"
-    url: /teaching/
-  - title: "Music"
-    url:  /Music/
-  - title: "Guide"
-    url: /guide/
-  - tile: "CV"
-    url: /cv/
+  main:
+    - title: "CV"
+      url: /cv/
+    - title: "Learning"
+      url: /learning/
+    - title: "Teaching"
+      url: /teaching/
+    - title: "Music"
+      url:  /Music/
+    - title: "Guide"
+      url: /guide/
+    # - title: "Quick-Start Guide"
+    #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 
 
 
