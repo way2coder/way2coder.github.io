@@ -9,7 +9,8 @@ layout: single
 classes: wide
 ---
 
-Check the latest mushup for the Astro Rave party in SUSTech.
+Check the latest mushup for the Astro Rave party in SUSTech.  
 [https://soundcloud.com/silhouette-zzh/astrorave-mushup-by-silhouette](Edit 2)
+
 
 

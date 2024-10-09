@@ -14,8 +14,8 @@ classes: wide
 ---
 
 ## PPT Tutorials
-[Basic DJ skills PPT Tutorials](/assets/pdf/DJ_tutorial.pdf)
-
+<!-- [Basic DJ skills PPT Tutorials](/assets/pdf/DJ_tutorial.pdf) -->
+<embed src="/assets/pdf/DJ_tutorial.pdf" width="800px" height="600px" />
 ----------
 ## Tricks
 ### Where to mix

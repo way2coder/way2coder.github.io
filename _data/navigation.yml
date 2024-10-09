@@ -2,14 +2,16 @@
   main:
     - title: "CV"
       url: /cv/
-    - title: "Learning"
-      url: /learning/
+    - title: "Research"
+      url: /research/
+    # - title: "Learning"
+    #   url: /learning/
     - title: "Teaching"
       url: /teaching/
     - title: "Music"
       url:  /Music/
-    - title: "Guide"
-      url: /guide/
+    # - title: "Guide"
+    #   url: /guide/
     # - title: "Quick-Start Guide"
     #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 

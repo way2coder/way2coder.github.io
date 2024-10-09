@@ -1,13 +1,11 @@
 ---
-title: "Moments"
-permalink: /moments/
+title: "Research"
+permalink: /research/
 layout: archive 
-excerpt: "Life is made of small moments like this."
+excerpt: "Previous researchs experience."
 ---
 
 
-{% for post in site.moments reversed %}
-  {% include archive-single.html %}
-{% endfor %}
 
 
+First paper about.

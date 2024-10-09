@@ -7,6 +7,9 @@ redirect_from:
 #   - /md/
 #   - /markdown.html
 ---
+## 
+1. there is no need to modify the calc() function
+2. 
 ## Configuration 
 1. font size: /_sass/_variables.scss
 2. width of sidebar: /_sass/minimal-mistakes/_page.scss :  margin-right: 6em;
