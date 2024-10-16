@@ -30,4 +30,75 @@
 <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
 <meting-js server="netease" type="album" id="188309551" fixed="true"></meting-js> -->
 
-<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1890928220&color=%23f5f5f5&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/silhouette-zzh" title="Silhouette" target="_blank" style="color: #cccccc; text-decoration: none;">Silhouette</a> · <a href="https://soundcloud.com/silhouette-zzh/sets/crying-on-the-dancing-floor" title="Crying on the Dancing Floor" target="_blank" style="color: #cccccc; text-decoration: none;">Crying on the Dancing Floor</a></div>
+<!-- Footer 中插入音乐播放器 -->
+<footer>
+  <div class="footer-container">
+      <div class="music-player">
+          <label for="playlist-selector" class="playlist-label">Choose Your Playlist:</label>
+          <select id="playlist-selector" class="playlist-selector" onchange="changePlaylist()">
+              <option value="https://api.soundcloud.com/playlists/1890928220">Crying on the Dancing Floor</option>
+              <option value="https://api.soundcloud.com/playlists/1890930680">Dancing and Chill</option>
+              <option value="https://api.soundcloud.com/playlists/1890929669">Shadows that Nobody Cares About</option>
+          </select>
+
+          <iframe id="soundcloud-player" width="800" height="450" scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1890928220&color=%23f5f5f5&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+          </iframe>
+
+          <div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: 100;">
+              <a href="https://soundcloud.com/silhouette-zzh" title="Silhouette" target="_blank" style="color: #cccccc; text-decoration: none;">Silhouette</a> ·
+              <a href="https://soundcloud.com/silhouette-zzh/sets/crying-on-the-dancing-floor" title="Crying on the Dancing Floor" target="_blank" style="color: #cccccc; text-decoration: none;">Crying on the Dancing Floor</a>
+          </div>
+      </div>
+  </div>
+
+  <style>
+      .footer-container {
+          padding: 20px;
+          background-color: #f9f9f9;
+          text-align: center;
+      }
+
+      .music-player {
+          max-width: 800px;
+          margin: 0 auto;
+          font-family: 'Helvetica Neue', Arial, sans-serif;
+      }
+
+      .playlist-label {
+          display: block;
+          font-size: 16px;
+          margin-bottom: 10px;
+          color: #333;
+      }
+
+      .playlist-selector {
+          width: 100%;
+          padding: 10px;
+          font-size: 14px;
+          border-radius: 8px;
+          border: 1px solid #ccc;
+          margin-bottom: 20px;
+          outline: none;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+      }
+
+      iframe {
+          border-radius: 12px;
+          margin-top: 10px;
+          width: 800px;
+      }
+  </style>
+
+  <script>
+      function changePlaylist() {
+          const playlistSelector = document.getElementById("playlist-selector");
+          const selectedValue = playlistSelector.value;
+          const player = document.getElementById("soundcloud-player");
+
+          player.src = `https://w.soundcloud.com/player/?url=${selectedValue}&color=%23f5f5f5&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true`;
+      }
+  </script>
+</footer>
