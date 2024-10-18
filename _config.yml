@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Silhouette"
-  avatar           : "/assets/images/oil.jpg"
+  avatar           : "/assets/images/profile.jpeg"
   bio              : "Hi guys"
   location         : "Shenzhen"
   email            : zzh953928832@gmail.com
@@ -137,7 +137,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/way2coder"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -307,9 +307,9 @@ collections:
   dj:
     output: true
     permalink: /dj/:path/
-  moments:
-    output: true
-    permalink: /:collection/:path/
+  # moments:
+  #   output: true
+  #   permalink: /:collection/:path/
   cv:
     output: true
     permalink: /:collection/:path/
